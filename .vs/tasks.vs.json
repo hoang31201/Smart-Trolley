@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-dbData",
+      "appliesTo": "src/main/webapp/db/dbData.sql",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-AccountScreen",
+      "appliesTo": "src/main/webapp/AccountScreen.jsp",
+      "type": "launch"
+    }
+  ]
+}

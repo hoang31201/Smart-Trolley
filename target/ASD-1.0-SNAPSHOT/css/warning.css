@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/09/2021, 10:31:02 PM
+    Author     : quyda
+*/
+
+.error{
+    color: red;
+    
+}
+
+.errorField {
+  position: relative;
+  animation: shake .1s linear;
+  animation-iteration-count: 3;
+  border: 1px solid red;
+  outline: none;
+}
+
+@keyframes shake {
+  0% {
+    left: -5px;
+  }
+  100% {
+    right: -5px;
+  }
+}
